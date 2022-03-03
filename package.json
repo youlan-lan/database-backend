@@ -1,0 +1,28 @@
+{
+  "name": "@byteinspire-template/express",
+  "version": "0.0.4",
+  "files": [
+    "*",
+    "!.*",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "@byteinspire/api": "^1.0.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "log4js": "^6.3.0",
+    "mysql": "^2.18.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {},
+  "license": "ISC",
+  "scripts": {
+    "serve": "i dev"
+  }
+}
